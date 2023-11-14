@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Navigation - Mariana Tellez Resendiz</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/2237014ddd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <aside>
+      <header>
+        <section>
+          <img src="./img/logo.png" alt="Spotify" title="Spotify" />
+          <i class="fa-solid fa-ellipsis"></i>
+        </section>
+        <section class="search-container">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" name="search" placeholder="Search" />
+          <i class="fa-solid fa-sliders"></i>
+        </section>
+      </header>
+      <menu>
+        <!--MENU-->
+        <article>
+          <p class="menu">MENU</p>
+          <section>
+            <i class="fa-solid fa-house bright"></i>
+            <p class="bright">Home</p>
+          </section>
+          <section>
+            <i class="fa-solid fa-eye"></i>
+            <p>Discover</p>
+          </section>
+          <section>
+            <i class="fa-solid fa-tower-cell"></i>
+            <p>Radio</p>
+          </section>
+          <section>
+            <i class="fa-solid fa-music"></i>
+            <p>Artists</p>
+          </section>
+          <section>
+            <i class="fa-solid fa-compact-disc"></i>
+            <p>Albums</p>
+          </section>
+          <section>
+            <i class="fa-solid fa-headset"></i>
+            <p>Podcasts</p>
+          </section>
+        </article>
+        <!--PLAYLISTS-->
+        <article>
+          <section class="title-playlists">
+            <p class="bright">PLAYLISTS</p>
+            <i class="fa-solid fa-plus bright plus"></i>
+          </section>
+
+          <section class="playlist">
+            <div class="left">
+              <i class="fa-solid fa-bars"></i>
+              <p>Top Hits 2021-USA</p>
+            </div>
+            <div class="right">
+              <i class="fa-regular fa-trash-can trash"></i>
+            </div>
+          </section>
+
+          <section class="playlist">
+            <div class="left">
+              <i class="fa-solid fa-bars"></i>
+              <p>Dancing</p>
+            </div>
+            <div class="right">
+              <i class="fa-regular fa-trash-can trash"></i>
+            </div>
+          </section>
+
+          <section class="playlist">
+            <div class="left">
+              <i class="fa-solid fa-bars bright"></i>
+              <p class="bright">Discover Weekly</p>
+            </div>
+            <div class="right">
+              <i class="fa-solid fa-circle-pause bright pause"></i>
+              <i class="fa-regular fa-trash-can trash"></i>
+            </div>
+          </section>
+        </article>
+      </menu>
+      <hr />
+      <footer>
+        <section>
+          <div>
+            <img
+              src="./img/album.png"
+              alt="Gold Rush Kid"
+              title="Gold Rush Kid"
+            />
+          </div>
+          <div>
+            <p>Green Green Grass</p>
+            <p class="gray">Gold Rush Kid</p>
+          </div>
+        </section>
+        <section class="footer-bottom">
+          <i class="fa-solid fa-volume-high"></i>
+          <input type="range" name="volume" />
+          <i class="fa-solid fa-bars-staggered"></i>
+          <i class="fa-solid fa-computer"></i>
+        </section>
+      </footer>
+    </aside>
+    <main>
+      <header>
+        <section>
+          <i class="fa-solid fa-circle-chevron-left"></i>
+          <i class="fa-solid fa-circle-chevron-right"></i>
+        </section>
+        <section class="column">
+          <button>Explorar Premium</button>
+          <button>Instalar aplicación</button>
+
+          <i class="fa-solid fa-bell"></i>
+          <i class="fa-solid fa-circle-user"></i>
+        </section>
+      </header>
+      <section class="content">
+        <h1>Buenas tardes</h1>
+        <article class="recent">
+          <div>
+            <img src="./img/album-1.png" alt="Taylor Swift" />
+            <p>Lover</p>
+          </div>
+          <div>
+            <img src="./img/album-2.png" alt="Twenty One Pilots" />
+            <p>Blurryface</p>
+          </div>
+          <div>
+            <img src="./img/album-3.png" alt="X Ambassadors" />
+            <p>VHS</p>
+          </div>
+          <div>
+            <img src="./img/album-4.png" alt="Maroon 5" />
+            <p>Overexposed</p>
+          </div>
+          <div>
+            <img src="./img/album-5.png" alt="Ava Max" />
+            <p>Heaven & Hell</p>
+          </div>
+          <div>
+            <img src="./img/album-6.png" alt="X Ambassadors" />
+            <p>VHS</p>
+          </div>
+        </article>
+        <h2>Picked for you</h2>
+        <article>
+          <!--Imagen y texto a un lado-->
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/album/0ujHQ5WCLuKJQXOqXpGtpf?utm_source=generator"
+            width="100%"
+            height="152"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+        </article>
+        <h2>Your top mixes</h2>
+        <article class="mixes">
+          <div>
+            <img src="./img/album-7.png" alt="Bruno Mars" />
+            <h3>Doo-Wops & Hooligans</h3>
+            <p>2010 Bruno Mars</p>
+          </div>
+          <div>
+            <img src="./img/album-8.png" alt="Avicii" />
+            <h3>Levels</h3>
+            <p>2011 Avicii</p>
+          </div>
+          <div>
+            <img src="./img/album-9.png" alt="Sabrina Carpenter" />
+            <h3>Emails I can't send</h3>
+            <p>2022 Sabrina Carpenter</p>
+          </div>
+          <div>
+            <img src="./img/album-10.png" alt="One Republic" />
+            <h3>Human (Deluxe)</h3>
+            <p>2021 One Republic</p>
+          </div>
+          <div>
+            <img src="./img/album-6.png" alt="SIA" />
+            <h3>This is Acting</h3>
+            <p>2016 Sia</p>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

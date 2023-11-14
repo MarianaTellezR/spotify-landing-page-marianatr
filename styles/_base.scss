@@ -1,0 +1,47 @@
+$fontFamily: "Quicksand", sans-serif;
+$primaryColor: white;
+$secondaryColor: #747474;
+$tertiaryColor: #262626;
+
+@mixin flexbox($justify-content) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: $justify-content;
+}
+
+@mixin grids($columns, $rows) {
+  display: grid;
+  grid-template-columns: $columns;
+  grid-template-rows: $rows;
+}
+
+@mixin laptops {
+  @media all and (max-width: 1375px) {
+    @content;
+  }
+}
+
+@mixin minilaptops {
+  @media all and (max-width: 1070px) {
+    @content;
+  }
+}
+
+@mixin ipads {
+  @media all and (max-width: 800px) {
+    @content;
+  }
+}
+
+@mixin phones {
+  @media all and (max-width: 600px) {
+    @content;
+  }
+}
+
+@mixin miniphone {
+  @media all and (max-width: 600px) {
+    @content;
+  }
+}
